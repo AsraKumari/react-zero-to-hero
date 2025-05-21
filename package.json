@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is a course",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsraKumari/react-zero-to-hero.git"
+  },
+  "author": "Asra Kumari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsraKumari/react-zero-to-hero/issues"
+  },
+  "homepage": "https://github.com/AsraKumari/react-zero-to-hero#readme",
+  "devDependencies": {
+    "parcel": "^2.15.0"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

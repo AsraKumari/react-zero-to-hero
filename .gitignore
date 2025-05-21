@@ -1,3 +1,14 @@
+# Node artifact files
 node_modules/
+dist/
+
 .env
+
 *.log
+# Compiled Java class files
+*.class
+
+# Compiled Python bytecode
+*.py[cod]
+
+.parcel-cache

@@ -8,10 +8,13 @@
 </head>
 <body>
     <div id="root">Not Rendered</div> <!--what we want to render will render inside this root-->
+    <!--BUNDLERS:vite,         PARCEL(will use)(a package of JS file ---it is (npm)),      webpack  -->
    
 <!-------------------Injecting React Here From React CDN------------------>
+<!--
 <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+-->
 
 
 <!------------printing heading using JS only-------------
@@ -22,9 +25,10 @@ heading.innerHTML = "Namaste everyone"
 const root = document.getElementById("root");
 root.appendChild(heading);----------->
 
+
    
 
-<script src="App.js"></script>
+<script type ="module"src="App.js"></script> <!--type module means , need to tell that---- this is not a normal JS file , it is a module-->
    
 </body>
 </html>
